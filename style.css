@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: latoRegular;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+body{
+    font-family:latoRegular;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    color: rgb(9, 49, 102);
+}
+
+.wrapper{
+    width: 70vw;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(image/nat-7.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: -26rem;
+    text-transform: capitalize;
+}
+
+.countdown_container{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.big_text{
+    font-size: 8rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown_div{
+    text-align: end;
+}
+
+.countdown_div span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
